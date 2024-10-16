@@ -24,17 +24,3 @@ rclone delete huggingface:/qinglong/db/database.sqlite && rclone sync /ql/data h
 备份时间可以根据自己的情况设置我这里设置每天1点更新: 0 1 1 * * * 
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-
-[huggingface]
-type = webdav
-url = https://pan.hefamily.net/dav
-vendor = other
-user = yuanshang000@yssc0.top
-pass = bMMj6XaI3P7EfNfJLUSK9N7sDGagAJytjCVbUwAaOyxz1H_3vybtAZ54cpaM1udH
-
-[huggingface0]
-type = webdav
-url = https://pan.hefamily.net/dav
-vendor = other
-user = ys0@yssc0.top
-pass = 3inmJO3VLYrncmltfa7eqviz0f3EUH6QL-1SfKWNYADYurC96Au81CtnURXEA5aT
